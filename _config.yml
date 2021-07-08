@@ -21,8 +21,8 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Hong Youngjin'
-description:	       'A Mechanical Reliability Engineer at Doosan Infracore'
-author:              'Hong Youngjin'
+description:	       'Undergraduate at SKKU'
+author:              ''
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
