@@ -42,10 +42,12 @@
   text-decoration: none;
   color: $body-color;
   margin-bottom: 0.5rem;
+  float: middle;
 }
 
 .header-subtitle {
   color: $light-gray-color;
+  float:middle;
 }
 
 /*
@@ -58,7 +60,7 @@
 }
 
 .menu-content {
-  float: right;
+  float: middle;
 }
 
 .menu-content a {
@@ -68,7 +70,7 @@
 }
 
 .social-icons {
-  float: right;
+  float: middle;
 }
 
 .social-icons a {
