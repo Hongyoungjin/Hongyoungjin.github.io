@@ -25,6 +25,7 @@
 */
 
 .header {
+  text-align: center;
   padding-top: 5rem;
   padding-bottom: 3rem;
   margin-bottom: 4rem;
@@ -38,14 +39,12 @@
 }
 
 .header-title a {
-  text-align: center;
   font-size: 2rem;
   text-decoration: none;
   color: $body-color;
 }
 
 .header-subtitle {
-  text-align: center;
   color: $light-gray-color;
 }
 
