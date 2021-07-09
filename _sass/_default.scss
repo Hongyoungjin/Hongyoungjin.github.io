@@ -43,6 +43,14 @@
   text-decoration: none;
   color: $body-color;
   font-family: $sans-serif-font-family;
+  
+  background-image: linear-gradient(to right,var(#3c8067) 100%,transparent 100%);
+  background-position: 0 1.22em;
+  background-repeat: repeat-x;
+  background-size: 8px 1.5px;
+  border-bottom: none;
+  color: currentColor;
+  font-weight: var(700);
 }
 
 .header-subtitle {
