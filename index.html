@@ -25,13 +25,18 @@
                     <p>
                       I am a PhD student in the Department of Electrical and Computer Engineering at <a href="https://twin-cities.umn.edu/">University of Minnesota (UMN)</a>, advised by
                       <a href="https://choice.umn.edu/people">Prof. Changhyun Choi</a>.
-                      My research lies at the intersection of robotics and machine learning, focusing on generative models for generalizable and precise robot manipulation.
-                      I am particularly interested in leveraging Vision-Language and Vision-Language-Action models to enable robots to reason about and interact with the physical world in a more flexible, human-like way.
+                      My research focuses on Vision-Language-Action models, multimodal robot learning, generative policies, and contact-rich manipulation.
+                      I develop learning-based robotic systems that connect language and visual reasoning with precise physical execution.
                       I conduct my research in the Choice Robotics Lab, which is affiliated with <a href="https://cse.umn.edu/mnri">Minnesota Robotics Institute (MnRI)</a>.
                     </p>
                     <p>
+                      From May to September 2026, I was a research intern on the Optimization &amp; Robotics Team at
+                      <a href="https://www.merl.com/">Mitsubishi Electric Research Laboratories (MERL)</a>.
+                      I developed learning-based methods for robotic disassembly under pose uncertainty, integrating learned manipulation policies with compliant control and evaluating them on an industrial robot.
+                    </p>
+                    <p>
                       Before joining UMN, I was a research engineer at
-                      <a href="https://www.hanwhaaerospace.com/eng/index.do">Hanwha Aerospace</a>, where I developed business proposals for next-generation UGV technologies as well as UGV simulation.
+                      <a href="https://www.hanwhaaerospace.com/eng/index.do">Hanwha Aerospace</a> (January–July 2024), where I built Isaac Sim environments and supported field testing for autonomous unmanned ground vehicles.
                       I completed my master's and bachelor's in Mechanical Engineering at
                       <a href="https://www.skku.edu/eng/">Sungkyunkwan University (SKKU)</a>, advised by
                       <a href="https://rise.skku.edu/members/">Hyungpil Moon</a>.
@@ -50,6 +55,72 @@
                       <img style="width:100%;max-width:100%;object-fit:cover;border-radius:50%;" alt="profile photo"
                            src="figures/YoungjinHong.jpg" class="hoverZoomLink">
                     </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- CURRENT SUBMISSIONS -->
+            <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:16px;width:100%;vertical-align:middle">
+                    <h2>Under Review</h2>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:16px;width:20%;vertical-align:middle">
+                    <video width="160" autoplay loop muted playsinline controls preload="metadata" aria-label="NUDGE robot rollout showing nominal and corrected actions">
+                      <source src="figures/NUDGE/nudge_rollout.mp4" type="video/mp4">
+                      <a href="figures/NUDGE/nudge_rollout.mp4">Watch the NUDGE rollout</a>
+                    </video>
+                  </td>
+                  <td style="padding:8px;width:80%;vertical-align:middle">
+                    <span class="papertitle">NUDGE: Efficient Structured Action Correction for Vision-Language-Action Models under Latency</span>
+                    <br>
+                    <strong>Youngjin Hong</strong>, Tian Xie, Mingen Li, et al.
+                    <br>
+                    <em>Submitted to ICRA 2027</em>
+                    <br>
+                    <a href="https://anonymous.4open.science/w/nudge_website-2765/">Project Page</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="padding:16px;vertical-align:middle">
+                    <span class="papertitle">Learning-based compliant robotic disassembly under pose uncertainty</span>
+                    <br>
+                    <strong>Youngjin Hong</strong> et al.
+                    <br>
+                    <em>Submitted to ICRA 2027</em>
+                    <br>
+                    First-author manuscript. Research conducted at MERL.
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:16px;width:20%;vertical-align:middle">
+                    <!-- Close-up camera from https://pointcast-wm.github.io/static/videos/planning_real_pose.mp4 -->
+                    <video width="160" autoplay loop muted playsinline controls preload="metadata" aria-label="POINTCAST real robot pushing a T-shaped block, at six times real time">
+                      <source src="figures/POINTCAST/pointcast_rollout.mp4" type="video/mp4">
+                      <a href="figures/POINTCAST/pointcast_rollout.mp4">Watch the POINTCAST rollout</a>
+                    </video>
+                    <br>
+                    <small>6× speed</small>
+                  </td>
+                  <td style="padding:8px;width:80%;vertical-align:middle">
+                    <span class="papertitle">POINTCAST: One World Model for Rigid, Articulated, and Deformable Object Manipulation</span>
+                    <br>
+                    Hantao Ye, Ross Worobel, Zhuoli Xie, Mingen Li, Houjian Yu,
+                    <strong>Youngjin Hong</strong>,
+                    <a href="https://choice.umn.edu/people">Changhyun Choi</a>
+                    <br>
+                    <em>Submitted to ICRA 2027</em>
+                    <br>
+                    <a href="https://pointcast-wm.github.io/">Project Page</a>
                   </td>
                 </tr>
               </tbody>
@@ -108,7 +179,7 @@
 
             <!-- PUBLICATIONS LIST -->
 
-            <!-- LACY (ICRA 2026 Submission) -->
+            <!-- LACY (ICRA 2026) -->
              <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;">
               <tbody>
                 <tr>
@@ -129,10 +200,11 @@
                     <br>
                     <a href="https://arxiv.org/abs/2511.02239">arXiv</a> | 
                     <a href="https://vla2026.github.io/LACY/">Project Page</a>
+                    <p>A bidirectional language–action cycle learns action-to-language and language-to-action mappings, with a semantic consistency verifier that filters self-generated samples for reliable self-improvement.</p>
                   </td>
                 </tr>
                 
-                <!-- DLORoute (ICRA, 2026 Submission) -->
+                <!-- DLORoute (ICRA 2026) -->
                 <tr>
                   <td style="padding:16px;width:20%;vertical-align:middle">
                     <a href="figures/Hierarchical_DLO/thumbnail.png"><img src="figures/Hierarchical_DLO/thumbnail.png" width="160" alt="DLO thumbnail"></a>
@@ -148,7 +220,7 @@
                     <strong>Youngjin Hong</strong>,
                     <a href="https://choice.umn.edu/people">Changhyun Choi</a>
                     <br>
-                    <em>ICRA 2026 *Nominated as <strong>Best Paper Award on Robot Learning Award Finalists</strong></em>
+                    <em>ICRA, 2026</em> · <strong>Best Paper Award on Robot Learning Finalist</strong>
                     <br>
                     <a href="https://www.arxiv.org/abs/2510.19268">arXiv</a> | 
                     <a href="https://icra2026-dloroute.github.io/DLORoute/">Project Page</a>
@@ -191,6 +263,23 @@
                     <a href="https://ieeexplore.ieee.org/document/10003750">Paper</a> | 
                     <a href="https://sites.google.com/view/youngjincv/research/transformable-fingertip-to-augment-tableware-grasp-capability?authuser=0">Project Page</a>
                   
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- SELECTED PROJECTS -->
+            <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:16px;width:100%;vertical-align:middle">
+                    <h2>Selected Projects</h2>
+                    <p>
+                      <span class="papertitle">VLM-Guided Person Re-Identification and Tracking</span>
+                      <br>
+                      Collaboration with ETRI · <em>September 2025–Present</em>
+                    </p>
+                    <p>A language-guided person tracking pipeline integrating YOLOv11-L, ByteTrack, and LLaVA-NeXT to identify and re-identify a described target in continuous video. An adaptive triggering mechanism invokes VLM reasoning during initialization, target loss, low-confidence tracking, or periodic verification.</p>
                   </td>
                 </tr>
               </tbody>
@@ -260,7 +349,7 @@
                 <tr>
                   <td style="padding:16px;width:100%;vertical-align:middle">
                     <h2>Academic Services</h2>
-                    <p><strong>Reviewer for</strong> IEEE Robotics and Automation Letters (RA-L), 2025</p>
+                    <p><strong>Reviewer for</strong> IROS, CoRL, CPHS 2026 Workshop, and IEEE Robotics and Automation Letters (RA-L).</p>
                   </td>
                 </tr>
               </tbody>
