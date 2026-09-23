@@ -4,8 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Youngjin Hong</title>
     <meta name="author" content="Youngjin Hong">
+    <meta name="description" content="Youngjin Hong is a robotics PhD student at the University of Minnesota working on vision-language-action models and robot manipulation. Seeking a 2027 research internship.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="figures/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
 
@@ -17,22 +18,24 @@
           <td style="padding:0;">
 
             <!-- HEADER / INTRO -->
-            <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;">
+            <table class="profile" style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;">
               <tbody>
                 <tr>
                   <td style="padding:2.5%;width:63%;vertical-align:middle">
-                    <p class="name" style="text-align:center;">Youngjin Hong</p>
+                    <h1 class="name" style="text-align:center;">Youngjin Hong</h1>
+                    <p class="research-lead">I develop robot learning methods that connect vision-language reasoning with reliable physical execution.</p>
+                    <p class="availability"><strong>Seeking a 2027 research internship</strong><br>Robot learning and manipulation · <a href="mailto:hong0745@umn.edu">Get in touch</a></p>
+                    <nav class="contact-links" aria-label="Contact and profiles">
+                      <a href="mailto:hong0745@umn.edu">Email</a>
+                      <a href="data/YoungjinHong_CV.pdf">CV</a>
+                      <a href="https://scholar.google.com/citations?hl=en&amp;user=k_oI1lAAAAAJ">Scholar</a>
+                      <a href="https://www.linkedin.com/in/youngjin-hong-robot/">LinkedIn</a>
+                      <a href="https://github.com/Hongyoungjin">GitHub</a>
+                    </nav>
                     <p>
                       I am a PhD student in the Department of Electrical and Computer Engineering at <a href="https://twin-cities.umn.edu/">University of Minnesota (UMN)</a>, advised by
                       <a href="https://choice.umn.edu/people">Prof. Changhyun Choi</a>.
-                      My research focuses on Vision-Language-Action models, multimodal robot learning, generative policies, and contact-rich manipulation.
-                      I develop learning-based robotic systems that connect language and visual reasoning with precise physical execution.
-                      I conduct my research in the Choice Robotics Lab, which is affiliated with <a href="https://cse.umn.edu/mnri">Minnesota Robotics Institute (MnRI)</a>.
-                    </p>
-                    <p>
-                      From May to September 2026, I was a research intern on the Optimization &amp; Robotics Team at
-                      <a href="https://www.merl.com/">Mitsubishi Electric Research Laboratories (MERL)</a>.
-                      I developed learning-based methods for robotic disassembly under pose uncertainty, integrating learned manipulation policies with compliant control and evaluating them on an industrial robot.
+                      In the Choice Robotics Lab at the <a href="https://cse.umn.edu/mnri">Minnesota Robotics Institute (MnRI)</a>, I study Vision-Language-Action models, generative policies, and contact-rich manipulation.
                     </p>
                     <p>
                       Before joining UMN, I was a research engineer at
@@ -40,13 +43,6 @@
                       I completed my master's and bachelor's in Mechanical Engineering at
                       <a href="https://www.skku.edu/eng/">Sungkyunkwan University (SKKU)</a>, advised by
                       <a href="https://rise.skku.edu/members/">Hyungpil Moon</a>.
-                    </p>
-                    <p style="text-align:center">
-                      <a href="mailto:hong0745@umn.edu">Email</a> &nbsp;/&nbsp;
-                      <a href="data/YoungjinHong_CV.pdf">CV</a> &nbsp;/&nbsp;
-                      <a href="https://scholar.google.com/citations?hl=en&user=k_oI1lAAAAAJ">Scholar</a> &nbsp;/&nbsp;
-                      <a href="https://www.linkedin.com/in/youngjin-hong-robot/">LinkedIn</a> &nbsp;/&nbsp;
-                      <a href="https://github.com/Hongyoungjin">Github</a>
                     </p>
                   </td>
                   <td style="padding:2.5%;width:37%;max-width:37%">
@@ -71,7 +67,7 @@
               </tbody>
             </table>
 
-            <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;">
+            <table class="publication-list" style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;">
               <tbody>
                 <tr>
                   <td style="padding:16px;width:20%;vertical-align:middle">
@@ -79,26 +75,19 @@
                       <source src="figures/NUDGE/nudge_rollout.mp4" type="video/mp4">
                       <a href="figures/NUDGE/nudge_rollout.mp4">Watch the NUDGE rollout</a>
                     </video>
+                    <br>
+                    <small>Nominal vs. corrected actions</small>
                   </td>
                   <td style="padding:8px;width:80%;vertical-align:middle">
                     <span class="papertitle">NUDGE: Efficient Structured Action Correction for Vision-Language-Action Models under Latency</span>
                     <br>
-                    <strong>Youngjin Hong</strong>, Tian Xie, Mingen Li, et al.
+                    <strong>Youngjin Hong†</strong>, Tian Xie, Mingen Li, Hantao Ye, Ross Worobel, Houjian Yu, Yang Zhao,
+                    <a href="https://choice.umn.edu/people">Changhyun Choi</a> <small>(†Corresponding author)</small>
                     <br>
                     <em>Submitted to ICRA 2027</em>
                     <br>
                     <a href="https://anonymous.4open.science/w/nudge_website-2765/">Project Page</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2" style="padding:16px;vertical-align:middle">
-                    <span class="papertitle">Learning-based compliant robotic disassembly under pose uncertainty</span>
-                    <br>
-                    <strong>Youngjin Hong</strong> et al.
-                    <br>
-                    <em>Submitted to ICRA 2027</em>
-                    <br>
-                    First-author manuscript. Research conducted at MERL.
+                    <p>Corrects delayed VLA actions using current feedback while keeping the base policy frozen.</p>
                   </td>
                 </tr>
                 <tr>
@@ -114,13 +103,14 @@
                   <td style="padding:8px;width:80%;vertical-align:middle">
                     <span class="papertitle">POINTCAST: One World Model for Rigid, Articulated, and Deformable Object Manipulation</span>
                     <br>
-                    Hantao Ye, Ross Worobel, Zhuoli Xie, Mingen Li, Houjian Yu,
+                    Hantao Ye†, Ross Worobel, Zhuoli Xie, Mingen Li, Houjian Yu,
                     <strong>Youngjin Hong</strong>,
-                    <a href="https://choice.umn.edu/people">Changhyun Choi</a>
+                    <a href="https://choice.umn.edu/people">Changhyun Choi</a> <small>(†Corresponding author)</small>
                     <br>
                     <em>Submitted to ICRA 2027</em>
                     <br>
                     <a href="https://pointcast-wm.github.io/">Project Page</a>
+                    <p>A shared world model predicts object motion across rigid, articulated, and deformable manipulation.</p>
                   </td>
                 </tr>
               </tbody>
@@ -138,7 +128,7 @@
             </table> -->
 
             <!-- UNDER REVIEW LIST-->
-            <!-- <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;">
+            <!-- <table class="publication-list" style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;">
               <tbody> -->
                 
                 <!-- LIBERO-LQ (ICML 2026 Submission) -->
@@ -180,7 +170,7 @@
             <!-- PUBLICATIONS LIST -->
 
             <!-- LACY (ICRA 2026) -->
-             <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;">
+             <table class="publication-list" style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;">
               <tbody>
                 <tr>
                   <td style="padding:16px;width:20%;vertical-align:middle">
@@ -224,6 +214,7 @@
                     <br>
                     <a href="https://www.arxiv.org/abs/2510.19268">arXiv</a> | 
                     <a href="https://icra2026-dloroute.github.io/DLORoute/">Project Page</a>
+                    <p>Combines reinforcement learning and in-context vision-language reasoning for hierarchical routing of deformable linear objects.</p>
                   </td>
                 </tr>
               
@@ -297,7 +288,7 @@
             </table>
 
             <!-- TALKS LIST -->
-            <table style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;">
+            <table class="publication-list" style="width:100%;border:0;border-spacing:0 10px;border-collapse:separate;margin:0 auto;">
               <tbody>
 
 

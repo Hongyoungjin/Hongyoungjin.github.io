@@ -81,12 +81,12 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 h2 {
@@ -98,7 +98,7 @@ h2 {
 
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -139,4 +139,82 @@ span.highlight {
     padding: 20px;
     display: inline-block;
     border-radius: 10px;
+}
+
+body {
+  line-height: 1.5;
+}
+
+.name {
+  font-weight: normal;
+}
+
+.research-lead {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.availability {
+  padding: 12px 14px;
+  border-left: 3px solid #1772d0;
+  background: #eef5fc;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 16px;
+}
+
+.contact-links a {
+  padding: 6px 0;
+}
+
+.publication-list > tbody > tr > td:first-child {
+  min-width: 160px;
+}
+
+.publication-list img,
+.publication-list video {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .profile > tbody > tr {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .profile > tbody > tr > td {
+    width: auto !important;
+    max-width: 100% !important;
+    padding: 12px 16px !important;
+  }
+
+  .profile > tbody > tr > td:last-child {
+    width: 112px !important;
+    padding-bottom: 0 !important;
+  }
+
+  .publication-list > tbody > tr,
+  .publication-list > tbody > tr > td {
+    display: block;
+    width: auto !important;
+  }
+
+  .publication-list > tbody > tr > td {
+    padding: 12px 16px !important;
+  }
+
+  .publication-list > tbody > tr > td:first-child {
+    padding-bottom: 0 !important;
+  }
+
+  .publication-list img,
+  .publication-list video {
+    width: 280px;
+  }
 }
